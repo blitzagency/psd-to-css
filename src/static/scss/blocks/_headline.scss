@@ -4,4 +4,11 @@
 
 .headline {
     padding: rem(150);
+
+    // basic font settings
+    @extend .myriad-pro-bold;
+    text-align: center;
+    font-size: rem(103);
+
+
 }
