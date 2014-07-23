@@ -127,3 +127,7 @@
     -ms-user-select: none;
     user-select: none;
 }
+
+@mixin ps-letter-spacing($ps-tracking-value) {
+    letter-spacing: ps-letter-spacing($ps-tracking-value) + 0em;
+}
