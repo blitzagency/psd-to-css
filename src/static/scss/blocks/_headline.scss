@@ -15,6 +15,6 @@
     font-size: rem($headline-ps-font-size);
 
     // psd translated settings
-    line-height: ps-line-height($headline-ps-font-size, $headline-ps-leading-value);
+    @include ps-line-height(103, 95);
     @include ps-letter-spacing($headline-ps-tracking-value);
 }
