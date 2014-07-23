@@ -33,3 +33,7 @@ html {
     font-size: em($default-font-size);
     line-height: 1.2;
 }
+
+body {
+    background: get($colors, magenta);
+}

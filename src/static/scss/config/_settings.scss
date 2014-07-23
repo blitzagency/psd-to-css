@@ -1,6 +1,7 @@
 /* settings
     i. colors
-
+    ii. typography
+    iii. fonts
 */
 
 // i. COLORS
@@ -17,8 +18,15 @@
 
 $colors:
     white #fff,
-    black #000;
+    black #000,
+    magenta #ec008c;
 
 // ii. Typography
 
 $default-font-size: 16; // px
+
+
+
+// iii. Fonts
+
+$myriad-pro: "myriad-pro";

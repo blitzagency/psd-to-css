@@ -6,16 +6,25 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="all" href="static/css/styles.css"/>
+
+        <script type="text/javascript" src="//use.typekit.net/bag6ktd.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    </head>
+    <body>
+        <div id="modal"></div>
+        <div id="activity"></div>
+        <div id="window">
+            <h1 class="headline">The Quick Brown Fox Jumped Over the Lazy Dog</h1>
+        </div>
+
+        <!-- require setup -->
         <script type="text/javascript" src="static/js/vendor/require.js"></script>
         <script type="text/javascript">
         require(['static/js/common'], function (common) {
             require(['main']);
         });
         </script>
-    </head>
-    <body>
-        <div id="modal"></div>
-        <div id="activity"></div>
-        <div id="window"></div>
+        <!-- end of: require setup -->
     </body>
 </html>
