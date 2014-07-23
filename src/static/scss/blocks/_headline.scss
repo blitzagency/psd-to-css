@@ -3,12 +3,16 @@
 */
 
 .headline {
-    padding: rem(150);
+    $headline-font-size: 103;
+
+    padding: rem(150) rem(60);
 
     // basic font settings
     @extend .myriad-pro-bold;
     text-align: center;
-    font-size: rem(103);
+    font-size: rem($headline-font-size);
 
-
+    // psd translated settings
+    line-height: ps-line-height($headline-font-size, 95);
+    letter-spacing: em(ps-letter-spacing(-50));
 }
