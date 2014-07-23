@@ -5,7 +5,7 @@
 .headline {
     $headline-font-size: 103;
 
-    padding: rem(150) rem(60);
+    padding: rem(150) rem(80);
 
     // basic font settings
     @extend .myriad-pro-bold;
@@ -14,5 +14,5 @@
 
     // psd translated settings
     line-height: ps-line-height($headline-font-size, 95);
-    letter-spacing: em(ps-letter-spacing(-50));
+    letter-spacing: rem(-5);
 }
