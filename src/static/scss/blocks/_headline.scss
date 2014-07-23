@@ -3,16 +3,18 @@
 */
 
 .headline {
-    $headline-font-size: 103;
+    $headline-ps-font-size: 103;
+    $headline-ps-leading-value: 95;
+    $headline-ps-tracking-value: -50;
 
     padding: rem(150) rem(80);
 
     // basic font settings
     @extend .myriad-pro-bold;
     text-align: center;
-    font-size: rem($headline-font-size);
+    font-size: rem($headline-ps-font-size);
 
     // psd translated settings
-    line-height: ps-line-height($headline-font-size, 95);
-    @include ps-letter-spacing(-50);
+    line-height: ps-line-height($headline-ps-font-size, $headline-ps-leading-value);
+    @include ps-letter-spacing($headline-ps-tracking-value);
 }
